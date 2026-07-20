@@ -50,6 +50,15 @@ body {
   background: #1a1a1a;
 }
 
+.image-card.pending {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.image-card.pending:hover {
+  background: #000;
+}
+
 .image-card img {
   width: 72px;
   height: 72px;
